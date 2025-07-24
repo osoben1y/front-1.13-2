@@ -1,15 +1,22 @@
-import React from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import First from "./components/First"
+import Product from "./components/Prods"
+import About from "./components/About"
+import Message from "./components/Message"
+import Footer from "./components/Footer"
 
-const App = () => {
+function App() {
   return (
-    <>
-      <div>
-        <Header />
-        <Hero />
-      </div>
-    </>
+    <div className="min-h-screen bg-[#151719]">
+      <Header />
+      <Hero />
+      <First />
+      <Product />
+      <About />
+      <Message />
+      <Footer />
+    </div>
   )
 }
 
